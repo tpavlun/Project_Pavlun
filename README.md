@@ -1,7 +1,7 @@
 # Project_Pavlun
 Tetiana Pavlun IN.m-23
 
-This project is dedicated to an application, using which you can put on sale any properties you'd like to. Usually, it should be used by sales agents. They can authorize usinf their Google account. 
+This project is dedicated to an application, using which you can put on sale any properties you'd like to. Usually, it should be used by sales agents. They can authorize using their Google accounts. 
 
 Also, this project is dedicated to the most in-demand technologies today:
 
