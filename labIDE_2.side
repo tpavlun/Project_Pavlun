@@ -1,0 +1,659 @@
+{
+  "id": "740f7be8-8c42-4568-93c0-72b1863a59b9",
+  "version": "2.0",
+  "name": "Work_2",
+  "url": "http://localhost:3000/",
+  "tests": [{
+    "id": "9f839c60-45be-4a2f-87e1-1e7361f0fedc",
+    "name": "Add new post",
+    "commands": [{
+      "id": "768b8c11-bdca-4763-9e82-b883eae63c45",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11806ce0-45fb-4e1d-8e26-26817a085632",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8480f983-fa40-494c-bc00-168d12ccd0fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l-GwW:nth-child(1) > .VS-Ex path",
+      "targets": [
+        ["css=.l-GwW:nth-child(1) > .VS-Ex path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4b96df9-ff70-4509-bf08-d3da55af2454",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VS-Ex:nth-child(2)",
+      "targets": [
+        ["css=.VS-Ex:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[2]/div/div/div[2]/div/div/ul/li/div/button", "xpath:idRelative"],
+        ["xpath=//li/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Увійти або зареєструватись')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f87a987-2194-4dae-a070-edb4dc537739",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_0cNvO:nth-child(2)",
+      "targets": [
+        ["css=.\\_0cNvO:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/div[3]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Зареєструйтесь')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1165c7e-591b-4bd7-9418-613903839cd3",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "tesr"
+    }, {
+      "id": "51ed937a-9255-4a36-97b4-d1503b6ace20",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=lastName", "id"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fda13366-9e33-4346-898d-354761631fbf",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=lastName", "id"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "aserf@gmail.com"
+    }, {
+      "id": "45fa7e59-a8b4-4e33-8b05-fdc15d569157",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=phone", "id"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e3b282e-5abf-4651-9ba6-f28d18adf8d3",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=phone", "id"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "asd456A!"
+    }, {
+      "id": "805af06b-d1a0-4d5d-aec0-1034be44207e",
+      "comment": "",
+      "command": "click",
+      "target": "id=passwordConfr",
+      "targets": [
+        ["id=subscribe", "id"],
+        ["css=#subscribe", "css:finder"],
+        ["xpath=//input[@id='subscribe']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[4]/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "166dc162-240e-4058-a5c4-29e1d19083a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=passwordConfr",
+      "targets": [
+        ["id=registrationConfirmButton", "id"],
+        ["css=#registrationConfirmButton", "css:finder"],
+        ["xpath=//button[@id='registrationConfirmButton']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Зареєструватися')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f89e56e9-6729-4152-a550-b1dea24b2984",
+      "comment": "",
+      "command": "click",
+      "target": "id=registration",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8d84fccc-ec89-4a41-b6d1-91d04f32d74a",
+    "name": "Register new User",
+    "commands": [{
+      "id": "16083df7-386a-4255-bdc4-c0232831fb67",
+      "comment": "",
+      "command": "open",
+      "target": "https://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5eed352a-9241-4eb9-ab77-39d790c3cb17",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6001e73d-a587-40fe-9eec-53a4db3bc360",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l-GwW:nth-child(1) > .VS-Ex",
+      "targets": [
+        ["css=.l-GwW:nth-child(1) > .VS-Ex", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='page-block']/div/header/div/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c41272b-563f-475d-b3ef-6066d7bafc15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VS-Ex:nth-child(2)",
+      "targets": [
+        ["css=.VS-Ex:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[2]/div/div/div[2]/div/div/ul/li/div/button", "xpath:idRelative"],
+        ["xpath=//li/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Увійти або зареєструватись')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e92dbf47-e26e-4b39-a91a-5b2446cb6a07",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=phone_field", "id"],
+        ["css=#phone_field", "css:finder"],
+        ["xpath=//input[@id='phone_field']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffe55d3c-ae0f-45c2-b24c-b99b236f757f",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=phone_field", "id"],
+        ["css=#phone_field", "css:finder"],
+        ["xpath=//input[@id='phone_field']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "TestUser@gmail.com"
+    }, {
+      "id": "d056b794-2da8-4f50-bc90-40fb1404c4fd",
+      "comment": "",
+      "command": "click",
+      "target": "id=emailConfirmButton",
+      "targets": [
+        ["id=phoneConfirmButton", "id"],
+        ["css=#phoneConfirmButton", "css:finder"],
+        ["xpath=//button[@id='phoneConfirmButton']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "324e3be5-6593-4ec5-a379-b394cd7685e8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=emailConfirmButton",
+      "targets": [
+        ["id=phoneConfirmButton", "id"],
+        ["css=#phoneConfirmButton", "css:finder"],
+        ["xpath=//button[@id='phoneConfirmButton']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a594aa2a-ae7d-4b88-b7cd-fc8ccdc691b5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=emailConfirmButton",
+      "targets": [
+        ["id=phoneConfirmButton", "id"],
+        ["css=#phoneConfirmButton", "css:finder"],
+        ["xpath=//button[@id='phoneConfirmButton']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1d0d517-8a50-430b-9f7e-c06c6cc30dcf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l1V9a > .D8VyR",
+      "targets": [
+        ["css=.l1V9a > .D8VyR", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9b16613d-35d5-4a64-8686-fa26dd150564",
+    "name": "Login invalid user",
+    "commands": [{
+      "id": "e3e03140-8a00-486f-9ca9-bd07e60ef6e1",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "816ba4ea-156b-4a68-a1b0-7a606d7f089a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ce7da76-1f3c-468c-bcda-426e05cb522c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4edfe17-bd63-4453-8170-e9d5039cfffe",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4af01589-6000-4041-8ab6-2cc22eea91c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l-GwW:nth-child(1) > .VS-Ex .D8VyR",
+      "targets": [
+        ["css=.l-GwW:nth-child(1) > .VS-Ex .D8VyR", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "30b8db51-8cc1-4e41-bbfa-1bbf04ca9a1c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.l-GwW:nth-child(1) > .VS-Ex path",
+      "targets": [
+        ["css=.l-GwW:nth-child(1) > .VS-Ex path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc029b1c-bbd6-4fd2-a8eb-473821bdaf1f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.l-GwW:nth-child(1) > .VS-Ex path",
+      "targets": [
+        ["css=.l-GwW:nth-child(1) > .VS-Ex path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ac10b1a-f247-422a-8eb2-31129300578a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.YSmsd > .M3v0L",
+      "targets": [
+        ["css=.YSmsd > .M3v0L", "css:finder"],
+        ["xpath=//div[@id='react-portal']/div[3]/div/div/div[2]/div/div/ul/li/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/ul/li/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10605e39-9e7a-4629-b983-39c76baf63cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VS-Ex:nth-child(2)",
+      "targets": [
+        ["css=.VS-Ex:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[25]", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[3]/div/div/div[2]/div/div/ul/li/div/button", "xpath:idRelative"],
+        ["xpath=//li/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Увійти або зареєструватись')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe78cdeb-13ea-4e4d-97b4-38754cb0f677",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.VS-Ex:nth-child(2)",
+      "targets": [
+        ["css=.VS-Ex:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[25]", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[3]/div/div/div[2]/div/div/ul/li/div/button", "xpath:idRelative"],
+        ["xpath=//li/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Увійти або зареєструватись')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7af0025-d748-4718-a113-4337db54946d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.VS-Ex:nth-child(2)",
+      "targets": [
+        ["css=.VS-Ex:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[25]", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[3]/div/div/div[2]/div/div/ul/li/div/button", "xpath:idRelative"],
+        ["xpath=//li/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Увійти або зареєструватись')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5836a953-01fe-42a5-920b-646f651cc055",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone_field",
+      "targets": [
+        ["id=phone_field", "id"],
+        ["css=#phone_field", "css:finder"],
+        ["xpath=//input[@id='phone_field']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[5]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "138dd933-5685-47bd-94dd-3fe3ed77f2f6",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone_field",
+      "targets": [
+        ["id=phone_field", "id"],
+        ["css=#phone_field", "css:finder"],
+        ["xpath=//input[@id='phone_field']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[5]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "+380 (_0) 000-00-0_"
+    }, {
+      "id": "af0e14a9-813f-4ff2-a903-6983510818e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=phoneConfirmButton",
+      "targets": [
+        ["id=phoneConfirmButton", "id"],
+        ["css=#phoneConfirmButton", "css:finder"],
+        ["xpath=//button[@id='phoneConfirmButton']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[5]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d82de06-3d71-439a-b042-497c0bd7e653",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_7Fcq2",
+      "targets": [
+        ["css=.\\_7Fcq2", "css:finder"],
+        ["xpath=//div[@id='react-portal']/div[5]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "045bf7aa-4f57-4228-afaf-2c20acb30810",
+    "name": "Register check invalid massage",
+    "commands": [{
+      "id": "fec8381f-6506-43ae-b5ce-9055a9a30f21",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:3000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05b80629-8327-4e6f-aed1-3eb2e11d993c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afc2c4d5-f184-4907-a1a9-5e79d96f4c0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l-GwW:nth-child(1) > .VS-Ex",
+      "targets": [
+        ["css=.l-GwW:nth-child(1) > .VS-Ex", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='page-block']/div/header/div/div/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "314cad02-d4ba-4453-b9c1-3fcd7707265b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.VS-Ex:nth-child(2)",
+      "targets": [
+        ["css=.VS-Ex:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[2]/div/div/div[2]/div/div/ul/li/div/button", "xpath:idRelative"],
+        ["xpath=//li/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Увійти або зареєструватись')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c1b65d4-739b-450b-be8a-73ad9dd076cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_0cNvO:nth-child(2)",
+      "targets": [
+        ["css=.\\_0cNvO:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/div[3]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Зареєструйтесь')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77ffe662-97ef-430d-935b-32400bae2821",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "da197f9d-c7a7-4dda-8228-272b49e4dc7d",
+      "comment": "",
+      "command": "click",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "186f368f-0b34-4705-a3a3-9d46232a6b2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9de5d50-8f8f-434d-884a-22378566b83d",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "+380 (11) 111-11-11"
+    }, {
+      "id": "15bc0708-ee15-4369-9e14-e94647dacdac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uV711",
+      "targets": [
+        ["css=.uV711", "css:finder"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f69d451-6444-4dda-a3f2-072ffa4a4a95",
+      "comment": "",
+      "command": "click",
+      "target": "id=subscribe",
+      "targets": [
+        ["id=subscribe", "id"],
+        ["css=#subscribe", "css:finder"],
+        ["xpath=//input[@id='subscribe']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[4]/label/div/input", "xpath:idRelative"],
+        ["xpath=//label/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e802ac1-b66e-4329-922b-88954e3f0db5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NI39K > .M3v0L:nth-child(5)",
+      "targets": [
+        ["css=.NI39K > .M3v0L:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[5]", "xpath:idRelative"],
+        ["xpath=//form/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc86f622-6211-4cea-95cd-b602dc8bfa9f",
+      "comment": "",
+      "command": "click",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d0b5c46-13c2-49cd-8355-ca0231537fae",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "b4fa9884-e3d0-4203-b91e-1f604d3069e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=registrationConfirmButton",
+      "targets": [
+        ["id=registrationConfirmButton", "id"],
+        ["css=#registrationConfirmButton", "css:finder"],
+        ["xpath=//button[@id='registrationConfirmButton']", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Зареєструватися')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "254e3640-aa64-43e5-b2c3-0fc21faa254b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NI39K > .M3v0L > .M3v0L:nth-child(3)",
+      "targets": [
+        ["css=.NI39K > .M3v0L > .M3v0L:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ca12daf-5201-41a7-b22f-48ef7be8160c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.M3v0L > .M3v0L > .M3v0L:nth-child(3) > div > .M3v0L > .\\_3Trjq",
+      "targets": [
+        ["css=.M3v0L > .M3v0L > .M3v0L:nth-child(3) > div > .M3v0L > .\\_3Trjq", "css:finder"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[2]/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "421530fb-23ef-45bd-86a7-2cf4428c62b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_7Fcq2",
+      "targets": [
+        ["css=.\\_7Fcq2", "css:finder"],
+        ["xpath=//div[@id='react-portal']/div[4]/div/div/div[2]/div/div/div/div[2]/div[2]/form/div[3]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "610012ea-57e0-4c1b-8b30-62fe51cdd786",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:3000/", "https://prom.ua/"],
+  "plugins": []
+}
